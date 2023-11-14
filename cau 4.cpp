@@ -22,7 +22,7 @@ int main(){
 		switch(choice){
 			case 1:
 				printf("day so chia het cho 2 la : ");
-				for(int i = 0; i <= n ; i++){
+				for(int i = n; i >= 0 ; i--){
 					if(i % 2 == 0){
 						printf("%d \t",i);
 					}
